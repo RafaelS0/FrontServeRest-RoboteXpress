@@ -89,7 +89,7 @@ Cadastrar um usuário sem nome sendo um Administrador
     ...    password=pwd1234
     ...    administrador=true
     
-    Limpar Usuario    ${new_user_data}
+    
     Gerar Administrador    ${admin_user}
     Fazer Login como Administrador    ${admin_user}
     POST - Registrar Usuario    ${new_user_data}
@@ -112,7 +112,7 @@ Cadastrar um usuário sem e-mail sendo um Administrador
     ...    password=pwd1234
     ...    administrador=true
     
-    Limpar Usuario    ${new_user_data}
+    
     Gerar Administrador    ${admin_user}
     Fazer Login como Administrador    ${admin_user}
     POST - Registrar Usuario    ${new_user_data}
@@ -135,7 +135,7 @@ Cadastrar um usuário sem senha sendo um Administrador
     ...    password=
     ...    administrador=true
     
-    Limpar Usuario    ${new_user_data}
+   
     Gerar Administrador    ${admin_user}
     Fazer Login como Administrador    ${admin_user}
     POST - Registrar Usuario    ${new_user_data}
