@@ -14,8 +14,8 @@ Start Session
 
 Limpar Usuario
     [Arguments]    ${user}
-    POST - Fazer Login    ${user}
-    IF    ${response.status_code} == 200
-        GET - Buscar Usuario Por Email    ${user}
+    GET - Buscar Usuario por email    ${user}
+    IF    '${user_id}' != '${EMPTY}'
         DELETE - Apagar um usuário    ${user_id}
     END
+    

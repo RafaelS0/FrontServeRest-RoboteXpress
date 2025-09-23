@@ -24,12 +24,7 @@ POST - Fazer Login
     Create Session    ServeRest    https://compassuol.serverest.dev/
     ${response}=    POST On Session    alias=ServeRest    url=/login    json=${payload}    expected_status=any     
     Set Global Variable    ${response}
-    Run Keyword If    ${response.status_code} == 200    Extract Token       
-
-Extract Token
-    ${token}=    Set Variable    ${response.json()['authorization']}
-    Log to Console    Token obtido: ${token}
-    Set Global Variable    ${token}
+    Log    ${response.content}
 
 
 
@@ -37,9 +32,14 @@ GET - Buscar Usuario por email
     [Arguments]    ${user}
     Create Session    ServeRest    https://compassuol.serverest.dev/
     ${response}=    GET On Session    alias=ServeRest    url=/usuarios?email=${user}[email]    expected_status=any
-    ${user_id}=    Set Variable    ${response.json()['usuarios'][0]['_id']}
-    Log    ${user_id}
-    Set Global Variable    ${user_id}
+    ${response_json}=    Set Variable    ${response.json()}
+    IF    'usuarios' in $response_json
+        ${usuarios}=    Set Variable    ${response_json['usuarios']}
+        IF    len($usuarios) > 0
+            ${user_id}=    Set Variable    ${usuarios[0]['_id']}
+            Set Global Variable    ${user_id}
+        END
+    END
 
 DELETE - Apagar um usuário
     [Arguments]          ${_id}

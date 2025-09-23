@@ -41,6 +41,10 @@ Validar mensagem de erro
     [Arguments]    ${expected_text}
     Wait For Elements State    xpath=//span[text()='${expected_text}']
 
+Validar redirecionamento para lista de usuários
+    ${current_url}=    Get Url
+    Should Contain    ${current_url}    /admin/listarusuarios
+
 
 
 

@@ -5,7 +5,6 @@ Library    Telnet
 Resource    ./../resources/base.resource
 
 
-
 *** Test Cases ***
 Cadastrar um administrador sendo um Administrador com sucesso
     [Tags]    cadastro-adm  
@@ -27,6 +26,7 @@ Cadastrar um administrador sendo um Administrador com sucesso
     Fazer Login como Administrador    ${admin_user}
     Limpar Usuario    ${new_user_data}
     Enviar formulário de criação de usuário como admin    ${new_user_data}
+    Validar redirecionamento para lista de usuários
 
 Cadastrar um cliente sendo um Administrador com sucesso
     [Tags]    cadastro-adm  
@@ -48,6 +48,7 @@ Cadastrar um cliente sendo um Administrador com sucesso
     Fazer Login como Administrador    ${admin_user}
     Limpar Usuario    ${new_user_data}
     Enviar formulário de criação de usuário como admin    ${new_user_data}
+    Validar redirecionamento para lista de usuários
 
 Cadastrar um usuário duplicado sendo um Administrador 
     [Tags]    cadastro-adm-dup    
