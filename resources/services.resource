@@ -38,6 +38,7 @@ GET - Buscar Usuario por email
     Create Session    ServeRest    https://compassuol.serverest.dev/
     ${response}=    GET On Session    alias=ServeRest    url=/usuarios?email=${user}[email]    expected_status=any
     ${user_id}=    Set Variable    ${response.json()['usuarios'][0]['_id']}
+    Log    ${user_id}
     Set Global Variable    ${user_id}
 
 DELETE - Apagar um usuário

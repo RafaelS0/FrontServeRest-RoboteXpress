@@ -24,8 +24,6 @@ Fazer Login como Administrador
     Sleep    3s
 
 
-
-
 Enviar formulário de criação de usuário como admin
     [Arguments]    ${user}
     Click    data-testid=cadastrar-usuarios
@@ -39,7 +37,9 @@ Enviar formulário de criação de usuário como admin
     Click    data-testid=cadastrarUsuario
     Sleep    1s
 
-
+Validar mensagem de erro
+    [Arguments]    ${expected_text}
+    Wait For Elements State    xpath=//span[text()='${expected_text}']
 
 
 
