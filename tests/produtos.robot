@@ -1,18 +1,15 @@
 *** Settings ***
 Documentation        Cenários de teste endpoint produtos
 
-Resource        ../resources/keywords.robot
+Resource        ../resources/base.robot
 
 Library        FakerLibrary        locale=pt_BR
-
-
-*** Variables ***
-${email}           test@test.com.br
-${password}        pwd123
 
 *** Test Cases ***
 Listagem de produtos
 
+    Criar usuário
+    
     Start Session
 
     Wait For Elements State        css=h1        visible        5
@@ -68,3 +65,5 @@ Deve poder cadastrar um novo produto
 
     Wait For Elements State        css=.jumbotron h1      visible        5
     Get Text                       css=.jumbotron h1      equal          Lista dos Produtos
+
+    Deletar usuário criado
