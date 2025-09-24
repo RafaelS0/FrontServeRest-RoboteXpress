@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2025-09-24T17:08:22.092514" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test" source="c:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\tests\login_test.robot">
+<kw name="Verificar Usuario Cadastrado" type="SETUP">
+<kw name="Carregar Dados Usuario" owner="keywords">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2025-09-24T17:08:23.912432" level="INFO" html="true">File '&lt;a href="file://c:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\data\user_data.json"&gt;c:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\data\user_data.json&lt;/a&gt;' exists.</msg>
+<arg>${USER_DATA_FILE}</arg>
+<doc>Fails unless the given ``path`` points to an existing file.</doc>
+<status status="PASS" start="2025-09-24T17:08:23.911265" elapsed="0.001452"/>
+</kw>
+<msg time="2025-09-24T17:08:23.913084" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>File Should Exist</arg>
+<arg>${USER_DATA_FILE}</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2025-09-24T17:08:23.908523" elapsed="0.004769"/>
+</kw>
+<if>
+<branch type="IF" condition="${exists}">
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2025-09-24T17:08:23.914505" level="INFO" html="true">Getting file '&lt;a href="file://c:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\data\user_data.json"&gt;c:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\data\user_data.json&lt;/a&gt;'.</msg>
+<msg time="2025-09-24T17:08:23.950908" level="INFO">${content} = {
+  "nome": "Danielle Williamson",
+  "email": "kdaniels@example.org",
+  "password": "123456"
+}</msg>
+<var>${content}</var>
+<arg>${USER_DATA_FILE}</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2025-09-24T17:08:23.913983" elapsed="0.037005"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-09-24T17:08:23.952367" level="INFO">${user_data} = {'nome': 'Danielle Williamson', 'email': 'kdaniels@example.org', 'password': '123456'}</msg>
+<var>${user_data}</var>
+<arg>json.loads($content)</arg>
+<arg>json</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-09-24T17:08:23.951435" elapsed="0.001018"/>
+</kw>
+<return>
+<value>${user_data}</value>
+<status status="PASS" start="2025-09-24T17:08:23.952617" elapsed="0.001664"/>
+</return>
+<status status="PASS" start="2025-09-24T17:08:23.913542" elapsed="0.040889"/>
+</branch>
+<branch type="ELSE">
+<return>
+<value>${None}</value>
+<status status="NOT RUN" start="2025-09-24T17:08:23.954760" elapsed="0.002054"/>
+</return>
+<status status="NOT RUN" start="2025-09-24T17:08:23.954526" elapsed="0.002432"/>
+</branch>
+<status status="PASS" start="2025-09-24T17:08:23.913489" elapsed="0.044219"/>
+</if>
+<msg time="2025-09-24T17:08:23.958421" level="INFO">${user_data} = {'nome': 'Danielle Williamson', 'email': 'kdaniels@example.org', 'password': '123456'}</msg>
+<var>${user_data}</var>
+<status status="PASS" start="2025-09-24T17:08:23.901169" elapsed="0.057318"/>
+</kw>
+<if>
+<branch type="IF" condition="${user_data} == ${None}">
+<kw name="Fail" owner="BuiltIn">
+<arg>Nenhum usuário cadastrado encontrado. Execute primeiro o teste de cadastro.</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2025-09-24T17:08:23.959990" elapsed="0.000262"/>
+</kw>
+<status status="NOT RUN" start="2025-09-24T17:08:23.958937" elapsed="0.001451"/>
+</branch>
+<status status="PASS" start="2025-09-24T17:08:23.958887" elapsed="0.001592"/>
+</if>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-09-24T17:08:23.961549" level="INFO">${NOME} = Danielle Williamson</msg>
+<arg>${NOME}</arg>
+<arg>${user_data}[nome]</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-09-24T17:08:23.960697" elapsed="0.000964"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-09-24T17:08:23.962636" level="INFO">${EMAIL} = kdaniels@example.org</msg>
+<arg>${EMAIL}</arg>
+<arg>${user_data}[email]</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-09-24T17:08:23.962111" elapsed="0.000760"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-09-24T17:08:23.963843" level="INFO">${PASSWORD} = 123456</msg>
+<arg>${PASSWORD}</arg>
+<arg>${user_data}[password]</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-09-24T17:08:23.963265" elapsed="0.000694"/>
+</kw>
+<status status="PASS" start="2025-09-24T17:08:23.898604" elapsed="0.065580"/>
+</kw>
+<test id="s1-t1" name="Login Com Usuario Valido" line="23">
+<kw name="Setup Browser" owner="keywords" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T17:08:23.970480" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "c:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\traces\\temp\\4372dfbd-5fdb-4c68-8f42-c2afd45687de"}</msg>
+<msg time="2025-09-24T17:08:24.257998" level="INFO">Starting Browser process C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:53755</msg>
+<msg time="2025-09-24T17:08:30.326034" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"c:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\traces\\temp\\4372dfbd-5fdb-4c68-8f42-c2afd45687de"}</msg>
+<arg>chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T17:08:23.969220" elapsed="6.357122"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T17:08:33.670547" level="INFO">Successfully initialized new page object and opened url: https://compassuolfront.serverest.dev</msg>
+<msg time="2025-09-24T17:08:33.670649" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-09-24T17:08:30.326888" elapsed="3.344011"/>
+</kw>
+<status status="PASS" start="2025-09-24T17:08:23.968053" elapsed="9.703022"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T17:08:33.672676" level="INFO">Fills the text 'kdaniels@example.org' in the given field.</msg>
+<arg>css=input[type="email"]</arg>
+<arg>${EMAIL}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:33.671433" elapsed="0.287819"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T17:08:33.960788" level="INFO">Fills the text '123456' in the given field.</msg>
+<arg>css=input[type="password"]</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:33.959574" elapsed="0.038514"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-24T17:08:33.999672" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
+<arg>css=button[type="submit"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:33.998584" elapsed="0.093922"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-09-24T17:08:37.094752" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-09-24T17:08:34.092773" elapsed="3.002117"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<msg time="2025-09-24T17:08:37.099881" level="INFO">${current_url} = https://compassuolfront.serverest.dev/home</msg>
+<var>${current_url}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2025-09-24T17:08:37.095122" elapsed="0.004827"/>
+</kw>
+<kw name="Should Not Contain" owner="BuiltIn">
+<arg>${current_url}</arg>
+<arg>/login</arg>
+<doc>Fails if ``container`` contains ``item`` one or more times.</doc>
+<status status="PASS" start="2025-09-24T17:08:37.100190" elapsed="0.000447"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-09-24T17:08:37.101283" level="INFO">Login realizado com sucesso para: kdaniels@example.org</msg>
+<arg>Login realizado com sucesso para: ${EMAIL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-09-24T17:08:37.100882" elapsed="0.000492"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-09-24T17:08:38.008221" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-09-24T17:08:37.102032" elapsed="0.906415"/>
+</kw>
+<doc>Valida login com usuário previamente cadastrado</doc>
+<status status="PASS" start="2025-09-24T17:08:23.964329" elapsed="14.044243"/>
+</test>
+<test id="s1-t2" name="Login Com Email Invalido" line="33">
+<kw name="Setup Browser" owner="keywords" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T17:08:38.033541" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "c:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\traces\\temp\\fbfe53d3-f1dc-41d5-8174-fb79cbaa64c1"}</msg>
+<msg time="2025-09-24T17:08:38.636524" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"c:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\traces\\temp\\fbfe53d3-f1dc-41d5-8174-fb79cbaa64c1"}</msg>
+<arg>chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T17:08:38.032365" elapsed="0.604495"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T17:08:41.236089" level="INFO">Successfully initialized new page object and opened url: https://compassuolfront.serverest.dev</msg>
+<msg time="2025-09-24T17:08:41.236247" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-09-24T17:08:38.637210" elapsed="2.599311"/>
+</kw>
+<status status="PASS" start="2025-09-24T17:08:38.031645" elapsed="3.205088"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T17:08:41.238693" level="INFO">Fills the text 'email_invalido@teste.com' in the given field.</msg>
+<arg>css=input[type="email"]</arg>
+<arg>email_invalido@teste.com</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:41.237577" elapsed="0.504870"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T17:08:41.744118" level="INFO">Fills the text '123456' in the given field.</msg>
+<arg>css=input[type="password"]</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:41.743079" elapsed="0.080218"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-24T17:08:41.826279" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
+<arg>css=button[type="submit"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:41.824531" elapsed="0.103830"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-09-24T17:08:43.929322" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-09-24T17:08:41.928694" elapsed="2.000812"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<msg time="2025-09-24T17:08:43.949226" level="INFO">${current_url} = https://compassuolfront.serverest.dev/login</msg>
+<var>${current_url}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2025-09-24T17:08:43.929778" elapsed="0.019537"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${current_url}</arg>
+<arg>/login</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2025-09-24T17:08:43.949606" elapsed="0.000502"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-09-24T17:08:48.013833" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-09-24T17:08:43.950655" elapsed="4.063535"/>
+</kw>
+<doc>Valida erro com email inválido</doc>
+<status status="PASS" start="2025-09-24T17:08:38.026992" elapsed="9.987358"/>
+</test>
+<test id="s1-t3" name="Login Com Senha Incorreta" line="42">
+<kw name="Setup Browser" owner="keywords" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T17:08:48.031263" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "c:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\traces\\temp\\43f92970-462c-4e0b-ac53-0074dbaaac44"}</msg>
+<msg time="2025-09-24T17:08:48.424213" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"c:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\traces\\temp\\43f92970-462c-4e0b-ac53-0074dbaaac44"}</msg>
+<arg>chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T17:08:48.029932" elapsed="0.394586"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T17:08:50.798491" level="INFO">Successfully initialized new page object and opened url: https://compassuolfront.serverest.dev</msg>
+<msg time="2025-09-24T17:08:50.798597" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-09-24T17:08:48.424816" elapsed="2.374365"/>
+</kw>
+<status status="PASS" start="2025-09-24T17:08:48.028981" elapsed="2.770466"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T17:08:50.801192" level="INFO">Fills the text 'kdaniels@example.org' in the given field.</msg>
+<arg>css=input[type="email"]</arg>
+<arg>${EMAIL}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:50.800155" elapsed="0.086985"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T17:08:50.888347" level="INFO">Fills the text 'senha_errada' in the given field.</msg>
+<arg>css=input[type="password"]</arg>
+<arg>senha_errada</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:50.887483" elapsed="0.039485"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-24T17:08:50.928457" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
+<arg>css=button[type="submit"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:50.927309" elapsed="0.069326"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-09-24T17:08:52.998224" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-09-24T17:08:50.997265" elapsed="2.001155"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<msg time="2025-09-24T17:08:53.005047" level="INFO">${current_url} = https://compassuolfront.serverest.dev/login</msg>
+<var>${current_url}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2025-09-24T17:08:52.998775" elapsed="0.006539"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${current_url}</arg>
+<arg>/login</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2025-09-24T17:08:53.005739" elapsed="0.000657"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-09-24T17:08:53.552688" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-09-24T17:08:53.006921" elapsed="0.546052"/>
+</kw>
+<doc>Valida erro com senha incorreta</doc>
+<status status="PASS" start="2025-09-24T17:08:48.023566" elapsed="5.529561"/>
+</test>
+<test id="s1-t4" name="Login Com Campos Vazios" line="51">
+<kw name="Setup Browser" owner="keywords" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T17:08:53.566963" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "c:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\traces\\temp\\f38c9134-21da-4e2c-b254-514568f10606"}</msg>
+<msg time="2025-09-24T17:08:53.946178" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"c:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\traces\\temp\\f38c9134-21da-4e2c-b254-514568f10606"}</msg>
+<arg>chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T17:08:53.565858" elapsed="0.380578"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T17:08:56.019906" level="INFO">Successfully initialized new page object and opened url: https://compassuolfront.serverest.dev</msg>
+<msg time="2025-09-24T17:08:56.020074" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-09-24T17:08:53.946749" elapsed="2.073740"/>
+</kw>
+<status status="PASS" start="2025-09-24T17:08:53.565331" elapsed="2.456043"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-24T17:08:56.024041" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
+<arg>css=button[type="submit"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T17:08:56.022692" elapsed="0.148560"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-09-24T17:08:58.174166" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-09-24T17:08:56.171621" elapsed="2.003026"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<msg time="2025-09-24T17:08:58.186865" level="INFO">${current_url} = https://compassuolfront.serverest.dev/login</msg>
+<var>${current_url}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2025-09-24T17:08:58.175548" elapsed="0.011468"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${current_url}</arg>
+<arg>/login</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2025-09-24T17:08:58.187550" elapsed="0.000963"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-09-24T17:08:58.614271" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-09-24T17:08:58.189189" elapsed="0.425426"/>
+</kw>
+<doc>Valida erro com campos vazios</doc>
+<status status="PASS" start="2025-09-24T17:08:53.561265" elapsed="5.053472"/>
+</test>
+<status status="PASS" start="2025-09-24T17:08:22.096624" elapsed="36.524093"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Test" id="s1" pass="4" fail="0" skip="0">Login Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
