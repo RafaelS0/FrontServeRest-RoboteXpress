@@ -10,6 +10,10 @@ log.html
 report.html
 selenium-screenshot-*.png
 
+# Browser artifacts
+browser/
+playwright-log*.txt
+
 # Dados de teste gerados
 data/
 *.json
