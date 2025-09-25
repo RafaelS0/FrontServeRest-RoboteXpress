@@ -72,3 +72,21 @@ Após a execução, os relatórios são gerados:
 - **Robot Framework** - Framework de testes
 - **BrowserLibrary** - Automação web
 - **FakerLibrary** - Geração de dados dinâmicos
+- **Requests** - Requisições a API
+
+## ✅ Cobertura dos Testes
+- Página de **Login**
+- Página de **Cadastro**
+- Página de **Produtos**
+- Página de **Cadastrar um novo usuário** *(necessário login de Administrador)*
+- Página de **Lista de Compras**
+
+
+## 👥 Squad 4 - TimeOut
+- **Julielen Arnoud Dorneles**
+- **Victor Lohan Sousa de Assis**
+- **Agemilson Pereira Abreu**
+- **Kaio Leandro Garcia Silvestrini**
+- **Rafael Oliva Soares**
+
+
