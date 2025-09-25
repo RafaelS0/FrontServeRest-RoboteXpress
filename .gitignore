@@ -1,0 +1,39 @@
+# Ambiente Virtual Python
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de execução Robot Framework
+output.xml
+log.html
+report.html
+selenium-screenshot-*.png
+
+# Dados de teste gerados
+data/
+*.json
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp

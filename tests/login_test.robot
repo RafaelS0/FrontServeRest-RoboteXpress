@@ -26,6 +26,7 @@ Login Com Usuario Valido
     Fill Text    css=input[type="password"]    ${PASSWORD}
     Click    css=button[type="submit"]
     Sleep    3s
+    Take Screenshot
     ${current_url}=    Get Url
     Should Not Contain    ${current_url}    /login
     Log    Login realizado com sucesso para: ${EMAIL}
@@ -36,6 +37,7 @@ Login Com Email Invalido
     Fill Text    css=input[type="password"]    ${PASSWORD}
     Click    css=button[type="submit"]
     Sleep    2s
+    Take Screenshot
     ${current_url}=    Get Url
     Should Contain    ${current_url}    /login
 
@@ -45,6 +47,7 @@ Login Com Senha Incorreta
     Fill Text    css=input[type="password"]    senha_errada
     Click    css=button[type="submit"]
     Sleep    2s
+    Take Screenshot
     ${current_url}=    Get Url
     Should Contain    ${current_url}    /login
 
@@ -52,5 +55,6 @@ Login Com Campos Vazios
     [Documentation]    Valida erro com campos vazios
     Click    css=button[type="submit"]
     Sleep    2s
+    Take Screenshot
     ${current_url}=    Get Url
     Should Contain    ${current_url}    /login

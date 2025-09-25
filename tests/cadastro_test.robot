@@ -13,6 +13,7 @@ Cadastrar Novo Usuario
     Fill Text    css=input[name="nome"]    ${nome}
     Fill Text    css=input[type="email"]    ${email}
     Fill Text    css=input[type="password"]    ${password}
+    Take Screenshot
     Click    css=button[type="submit"]
     Sleep    3s
     
@@ -28,6 +29,7 @@ Cadastrar Novo Usuario
     Fill Text    css=input[type="password"]    ${password}
     Click    css=button[type="submit"]
     Sleep    3s
+    Take Screenshot
     
     # Validar se login funcionou (indicando que cadastro foi bem-sucedido)
     ${current_url}=    Get Url

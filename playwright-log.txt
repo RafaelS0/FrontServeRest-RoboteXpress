@@ -1,172 +1,264 @@
-{"level":30,"time":"2025-09-24T20:08:27.913Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Listening on 127.0.0.1:53755"}
-(node:14864) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-09-25T18:23:55.320Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Listening on 127.0.0.1:57702"}
+(node:300) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-09-24T20:08:28.467Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-09-24T20:08:30.322Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
-{"level":30,"time":"2025-09-24T20:08:30.323Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-09-24T20:08:30.324Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-09-24T20:08:30.333Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T20:08:30.334Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@a30230ee56ec8896ea084b3a16aa2139\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=3120f0ff-c585-4768-8ace-e86dc133f0b6\"}"}
-{"level":30,"time":"2025-09-24T20:08:30.529Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=8226a496-8ad3-4676-b00f-8853e9a1b43e to 10000"}
-{"level":30,"time":"2025-09-24T20:08:30.529Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=8226a496-8ad3-4676-b00f-8853e9a1b43e"}
-{"level":30,"time":"2025-09-24T20:08:31.294Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T20:08:31.295Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T20:08:33.662Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T20:08:33.676Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:33.677Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"email\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:33.957Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:33.963Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:33.963Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"password\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:33.995Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:34.003Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T20:08:34.004Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:34.090Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T20:08:37.105Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-09-24T20:08:37.129Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=f8523216-ca42-4326-817a-0810223f6bab from context=8226a496-8ad3-4676-b00f-8853e9a1b43e page stack"}
-{"level":30,"time":"2025-09-24T20:08:38.006Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:23:55.361Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:23:55.777Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-25T18:23:55.778Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:23:55.778Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-25T18:23:55.786Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-25T18:23:55.787Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@aec205df8eafa18e52f5a7062627a38c\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=ea3fb0ac-535f-4781-a4ac-9410820c7878\"}"}
+{"level":30,"time":"2025-09-25T18:23:55.850Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=6d43e73b-4b8c-4edb-b056-bba4cc94ce9f to 10000"}
+{"level":30,"time":"2025-09-25T18:23:55.851Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=6d43e73b-4b8c-4edb-b056-bba4cc94ce9f"}
+{"level":30,"time":"2025-09-25T18:23:56.190Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-25T18:23:56.190Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
+{"level":30,"time":"2025-09-25T18:23:57.973Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-25T18:23:57.992Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-25T18:23:57.992Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with text=\"Cadastre-se\" in page."}
+{"level":30,"time":"2025-09-25T18:23:58.142Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
+{"level":30,"time":"2025-09-25T18:23:58.147Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:23:58.147Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[name=\"nome\"] in page."}
+{"level":30,"time":"2025-09-25T18:23:58.173Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:23:58.182Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:23:58.182Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"email\"] in page."}
+{"level":30,"time":"2025-09-25T18:23:58.206Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:23:58.214Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:23:58.214Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"password\"] in page."}
+{"level":30,"time":"2025-09-25T18:23:58.231Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:23:58.245Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:23:58.245Z","pid":300,"hostname":"DESKTOP-84ADG1D","Take screenshot with options: ":{"path":"C:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-25T18:23:58.524Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:23:58.530Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-25T18:23:58.530Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-09-25T18:23:58.583Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
+{"level":30,"time":"2025-09-25T18:24:01.599Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-25T18:24:02.201Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-25T18:24:02.210Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:02.210Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"email\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:02.237Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:02.243Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:02.244Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"password\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:02.255Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:02.261Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-25T18:24:02.261Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:02.300Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
+{"level":30,"time":"2025-09-25T18:24:05.310Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:05.310Z","pid":300,"hostname":"DESKTOP-84ADG1D","Take screenshot with options: ":{"path":"C:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-25T18:24:05.428Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:05.442Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:24:05.460Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=cda0b060-66cd-44af-9ee0-3afd304374fc from context=6d43e73b-4b8c-4edb-b056-bba4cc94ce9f page stack"}
+{"level":30,"time":"2025-09-25T18:24:06.064Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:12419:15)
-    at PlaywrightServer.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13368:59)
-    at PlaywrightServer.setTimeout (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13617:57)
-    at Object.onReceiveHalfClose (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at PlaywrightState.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:531:35)
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-09-24T20:08:38.022Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:38.023Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:38.029Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:38.029Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:38.035Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-09-24T20:08:38.634Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
-{"level":30,"time":"2025-09-24T20:08:38.634Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-09-24T20:08:38.634Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-09-24T20:08:38.640Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T20:08:38.640Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@3a0dba2c83b9239ee8bcfacedd3a0577\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=419ece0e-e28f-433d-96fe-7d97c101a793\"}"}
-{"level":30,"time":"2025-09-24T20:08:38.676Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=81ec885a-1e70-40ea-ab67-b94f0c904434 to 10000"}
-{"level":30,"time":"2025-09-24T20:08:38.677Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=81ec885a-1e70-40ea-ab67-b94f0c904434"}
-{"level":30,"time":"2025-09-24T20:08:39.012Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T20:08:39.012Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T20:08:41.234Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T20:08:41.243Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:41.243Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"email\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:41.739Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:41.747Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:41.747Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"password\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:41.821Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:41.828Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T20:08:41.828Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:41.926Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T20:08:43.953Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-09-24T20:08:43.980Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=b94b7c45-226a-461f-8cc5-afff6ec2d761 from context=81ec885a-1e70-40ea-ab67-b94f0c904434 page stack"}
-{"level":30,"time":"2025-09-24T20:08:48.012Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:24:06.072Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:06.073Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:12419:15)
-    at PlaywrightServer.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13368:59)
-    at PlaywrightServer.setTimeout (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13617:57)
-    at Object.onReceiveHalfClose (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at PlaywrightState.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:531:35)
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-09-24T20:08:48.021Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:48.021Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:48.027Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:48.027Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:48.033Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-09-24T20:08:48.422Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
-{"level":30,"time":"2025-09-24T20:08:48.422Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-09-24T20:08:48.422Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-09-24T20:08:48.428Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T20:08:48.428Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@6aa0a09458a7eb8705fd5b9cd5bdb534\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=c6ab90ce-a528-415c-bec8-c552f0f10c4d\"}"}
-{"level":30,"time":"2025-09-24T20:08:48.440Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=45f5aa9a-029b-42f5-8381-a40c6e8b30ca to 10000"}
-{"level":30,"time":"2025-09-24T20:08:48.441Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=45f5aa9a-029b-42f5-8381-a40c6e8b30ca"}
-{"level":30,"time":"2025-09-24T20:08:48.803Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T20:08:48.803Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T20:08:50.797Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T20:08:50.803Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:50.803Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"email\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:50.885Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:50.890Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:50.890Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"password\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:50.925Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T20:08:50.930Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T20:08:50.930Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:50.994Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T20:08:53.010Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-09-24T20:08:53.035Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=fd89f3df-669e-4c56-b676-adaa68fe7bc2 from context=45f5aa9a-029b-42f5-8381-a40c6e8b30ca page stack"}
-{"level":30,"time":"2025-09-24T20:08:53.551Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:24:06.083Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:06.083Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:06.101Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:06.101Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:06.129Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:06.130Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:06.135Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:24:06.411Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-25T18:24:06.411Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:24:06.411Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-25T18:24:06.418Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-25T18:24:06.418Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@87a154a911075497e79f4972b0255b45\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b8993cf1-005b-47b2-a360-1a76cdf9668d\"}"}
+{"level":30,"time":"2025-09-25T18:24:06.428Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=d0e49ffd-6f8b-4590-b096-4cbef556d837 to 10000"}
+{"level":30,"time":"2025-09-25T18:24:06.428Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=d0e49ffd-6f8b-4590-b096-4cbef556d837"}
+{"level":30,"time":"2025-09-25T18:24:06.758Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-25T18:24:06.758Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
+{"level":30,"time":"2025-09-25T18:24:08.659Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-25T18:24:08.665Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:08.666Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"email\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:08.789Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:08.798Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:08.798Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"password\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:08.818Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:08.823Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-25T18:24:08.823Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:08.880Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
+{"level":30,"time":"2025-09-25T18:24:11.888Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:11.888Z","pid":300,"hostname":"DESKTOP-84ADG1D","Take screenshot with options: ":{"path":"C:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\screenshot\\robotframework-browser-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-25T18:24:11.994Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:12.004Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:24:12.013Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=e27f352f-f467-41f3-b2f5-440af0c48f5d from context=d0e49ffd-6f8b-4590-b096-4cbef556d837 page stack"}
+{"level":30,"time":"2025-09-25T18:24:12.627Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:12419:15)
-    at PlaywrightServer.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13368:59)
-    at PlaywrightServer.setTimeout (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13617:57)
-    at Object.onReceiveHalfClose (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at PlaywrightState.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:531:35)
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-09-24T20:08:53.559Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:53.559Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:53.563Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:53.563Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:53.568Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-09-24T20:08:53.944Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
-{"level":30,"time":"2025-09-24T20:08:53.944Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-09-24T20:08:53.944Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-09-24T20:08:53.950Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T20:08:53.950Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1ba480491226513c59d1871f41917b05\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=65fc8f69-4106-407d-a09e-39f7c8130214\"}"}
-{"level":30,"time":"2025-09-24T20:08:53.992Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=68e5b441-3909-4778-93ed-e8c8086c4b08 to 10000"}
-{"level":30,"time":"2025-09-24T20:08:53.992Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=68e5b441-3909-4778-93ed-e8c8086c4b08"}
-{"level":30,"time":"2025-09-24T20:08:54.285Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T20:08:54.285Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T20:08:56.017Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T20:08:56.026Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T20:08:56.026Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
-{"level":30,"time":"2025-09-24T20:08:56.169Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T20:08:58.194Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-09-24T20:08:58.211Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=0dfbd0ca-7f49-47bf-9cdc-e79568824771 from context=68e5b441-3909-4778-93ed-e8c8086c4b08 page stack"}
-{"level":30,"time":"2025-09-24T20:08:58.613Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:24:12.637Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:12.637Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:12.641Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:12.641Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:12.646Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:24:13.030Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-25T18:24:13.030Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:24:13.030Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-25T18:24:13.035Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-25T18:24:13.036Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@9f8a084b8c8e15c4efe4e0176d0e484f\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=cf6c76f0-1e77-4f5f-a9e0-8ecf515caff9\"}"}
+{"level":30,"time":"2025-09-25T18:24:13.088Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=958dcfb7-247c-4127-a2ce-cb51d7d047e5 to 10000"}
+{"level":30,"time":"2025-09-25T18:24:13.088Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=958dcfb7-247c-4127-a2ce-cb51d7d047e5"}
+{"level":30,"time":"2025-09-25T18:24:13.451Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-25T18:24:13.451Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
+{"level":30,"time":"2025-09-25T18:24:15.167Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-25T18:24:15.172Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:15.172Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"email\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:15.284Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:15.299Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:15.300Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"password\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:15.311Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:15.319Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-25T18:24:15.319Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:15.377Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
+{"level":30,"time":"2025-09-25T18:24:17.389Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:17.390Z","pid":300,"hostname":"DESKTOP-84ADG1D","Take screenshot with options: ":{"path":"C:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\screenshot\\robotframework-browser-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-25T18:24:17.621Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:17.631Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:24:17.642Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=4450c246-dd51-443f-868b-e842775077cf from context=958dcfb7-247c-4127-a2ce-cb51d7d047e5 page stack"}
+{"level":30,"time":"2025-09-25T18:24:18.187Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:12419:15)
-    at PlaywrightServer.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13368:59)
-    at PlaywrightServer.setTimeout (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13617:57)
-    at Object.onReceiveHalfClose (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at PlaywrightState.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:531:35)
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-09-24T20:08:58.618Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:58.618Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:18.194Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:18.194Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:18.198Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:18.198Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:18.205Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:24:18.480Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-25T18:24:18.480Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:24:18.480Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-25T18:24:18.485Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-25T18:24:18.485Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1a7d68686456f5fe3e8dcb311a7d0a4d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=65b25cbe-130c-4bc0-93e2-156844d418f5\"}"}
+{"level":30,"time":"2025-09-25T18:24:18.504Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=be22a354-ec07-41c5-9bf4-25ec88a7f7dd to 10000"}
+{"level":30,"time":"2025-09-25T18:24:18.504Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=be22a354-ec07-41c5-9bf4-25ec88a7f7dd"}
+{"level":30,"time":"2025-09-25T18:24:18.807Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-25T18:24:18.808Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
+{"level":30,"time":"2025-09-25T18:24:20.878Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-25T18:24:20.887Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:20.888Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"email\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:21.027Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:21.032Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:21.032Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=input[type=\"password\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:21.047Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-25T18:24:21.059Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-25T18:24:21.059Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:21.104Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
+{"level":30,"time":"2025-09-25T18:24:23.113Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:23.113Z","pid":300,"hostname":"DESKTOP-84ADG1D","Take screenshot with options: ":{"path":"C:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\screenshot\\robotframework-browser-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-25T18:24:23.343Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:23.352Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:24:23.363Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=d7b2b538-a3a2-4f81-b006-b6d91e932fa5 from context=be22a354-ec07-41c5-9bf4-25ec88a7f7dd page stack"}
+{"level":30,"time":"2025-09-25T18:24:24.003Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:12419:15)
-    at PlaywrightServer.getActiveBrowser (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13368:59)
-    at PlaywrightServer.setTimeout (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\index.js:13617:57)
-    at Object.onReceiveHalfClose (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\victo\Desktop\FrontServeRest-RoboteXpress\FrontServeRest-RoboteXpress\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at PlaywrightState.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:531:35)
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-09-24T20:08:58.625Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:58.625Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T20:08:59.435Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-09-24T20:08:59.435Z","pid":14864,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-25T18:24:24.010Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:24.010Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:24.015Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:24.015Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:24.020Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:24:24.302Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-25T18:24:24.302Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-25T18:24:24.302Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-25T18:24:24.307Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-25T18:24:24.307Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@a69ea990e05511d5c0b0a02ed7fe6dd6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=6ee7f20a-e862-42e3-a469-3d609407cd28\"}"}
+{"level":30,"time":"2025-09-25T18:24:24.317Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Setting default timeout for context context=f59a7104-0fe7-475c-a814-7555e5767416 to 10000"}
+{"level":30,"time":"2025-09-25T18:24:24.317Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active context: context=f59a7104-0fe7-475c-a814-7555e5767416"}
+{"level":30,"time":"2025-09-25T18:24:24.629Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-25T18:24:24.629Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Changed active page"}
+{"level":30,"time":"2025-09-25T18:24:26.451Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-25T18:24:26.456Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-25T18:24:26.456Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-09-25T18:24:26.593Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method click"}
+{"level":30,"time":"2025-09-25T18:24:28.604Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:28.604Z","pid":300,"hostname":"DESKTOP-84ADG1D","Take screenshot with options: ":{"path":"C:\\Users\\victo\\Desktop\\FrontServeRest-RoboteXpress\\FrontServeRest-RoboteXpress\\browser\\screenshot\\robotframework-browser-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-25T18:24:28.830Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-25T18:24:28.838Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-09-25T18:24:28.849Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Removed page=9d46179a-264b-41a7-8065-5307f03f394b from context=f59a7104-0fe7-475c-a814-7555e5767416 page stack"}
+{"level":30,"time":"2025-09-25T18:24:29.414Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-09-25T18:24:29.421Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:29.421Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\victo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-09-25T18:24:29.429Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:29.429Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-25T18:24:29.536Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-25T18:24:29.536Z","pid":300,"hostname":"DESKTOP-84ADG1D","msg":"End of node method closeAllBrowsers"}
