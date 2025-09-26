@@ -7,6 +7,11 @@
 ---
 # Code Review – Testes de Cadastro (Robot Framework)
 
+## Arquivo analisado:
+### Diretório: tests/cadastro.robot
+
+### Link: https://github.com/IvoSobral/LEVELUP_Serverest_and_Robot/blob/main/tests/cadastro.robot
+
 ## Pontos positivos:
 O código está bem estruturado, fazendo uso de diversas bibliotecas que aprimoram seus testes, tal como a Faker e a Browser. Além disso, os testes cobrem uma série de casos válidos e de grande importância, como cadastro com emails duplicados e inválidos. Aperfeiçoando a realização dos testes.
 
