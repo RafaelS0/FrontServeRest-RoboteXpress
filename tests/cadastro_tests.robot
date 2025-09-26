@@ -1,7 +1,6 @@
 *** Settings ***
-Resource    ../resources/cadastro_page.robot
-Library     Browser
-Library    String
+Resource    ../resources/base.resource
+
 
 Test Setup    Abrir Tela de Cadastro
 Test Teardown    Close Browser

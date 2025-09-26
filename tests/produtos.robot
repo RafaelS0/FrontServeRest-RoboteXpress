@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation        Cenários de teste endpoint produtos
 
-Resource        ../resources/base.robot
+Resource        ../resources/base.resource
 
 Library        FakerLibrary        locale=pt_BR
 

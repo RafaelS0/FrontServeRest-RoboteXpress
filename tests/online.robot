@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation        Verificar se a página está online
 
-Resource        ../resources/base.robot
+Resource        ../resources/base.resource
 
 *** Test Cases ***
 Aplicação deve estar online
